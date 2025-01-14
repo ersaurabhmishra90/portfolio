@@ -1,0 +1,258 @@
+#heading {
+    background-color: blueviolet;
+    color: rgb(217, 207, 207);
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 5px;
+    border: 3.5px solid black;
+    border-radius: .5rem;
+    padding: 10px;
+}
+
+#nav {
+    background-color: rgb(186, 128, 239);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    position: sticky;
+    top: 0;
+    margin: 5px;
+    padding: 10px;
+    border: 3.5px solid black;
+    border-radius: .5rem;
+}
+
+#nav div {
+    display: inline;
+    position: sticky;
+    top: 10px;
+}
+
+#nav div a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(222, 219, 219);
+    text-decoration: none;
+}
+
+#nav div a:hover {
+    color: black;
+}
+
+#bg-img {
+    height: 200px;
+    margin: 5px;
+    position: relative;
+    background-image: url(./ts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-bottom: 25px;
+    border: 3.5px solid black;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: .5rem;
+}
+
+#pname {
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    font-weight: 700;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px white;
+}
+
+#profile {
+    height: 200px;
+    width: 200px; 
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    top: 60%;
+    background-image: url(./1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#web-container{
+    margin: 5px;
+    height: 250px;
+    text-align: center;
+    padding-top: 150px;
+    border: 3px solid black;
+    background: linear-gradient(to top right, rgb(16, 16, 17), rgb(64, 48, 102));
+}
+ #web-container .web {
+    color: red;
+    font-size: 5rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.web span{
+    color: white;
+}
+.sec {
+    height: 500px;
+    margin: 5px;
+}
+
+.sec:nth-child(2n) {
+    background: linear-gradient(to top right, rgb(16, 16, 17), rgb(64, 48, 102)); ;
+}
+
+.sec:nth-child(2n+1) {
+    background-color: rgb(19, 28, 26)  ;
+}
+.sec-heading {
+    font-size: 55px;
+    color: rgb(86, 86, 149);
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#edu {
+    height: 1000px;
+}
+
+#edu-container {
+    position: relative;
+    height: 900px;
+}
+
+#hi {
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: right;
+}
+
+#in {
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    left: 48%;
+    top: 35%;
+    text-align: right;
+}
+
+#bt {
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    top: 70%;
+    text-align: right;
+}
+
+.degree {
+    padding-top: 30px;
+    font-size: 38px;
+    color: rgb(83, 140, 83);
+}
+
+.institute {
+    padding-top: 5px;
+    font-size: 28px;
+    color: rgb(115, 190, 165);
+}
+
+.year {
+    padding-top: 5px;
+    font-size: 24px;
+    color: rgb(189, 248, 228);
+}
+#certificate {
+    height: 800px; 
+}
+
+#cer-container {
+    position: relative;
+    height: 800px;
+}
+
+#cert1 {
+    border-radius: .8rem;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#cert2 {
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 42%; 
+}
+
+#Contact_Us {
+    padding-top: 3rem;
+    margin-bottom: -0.5rem;
+    background-image: linear-gradient(to top right, rgb(5, 6, 8), rgb(64, 48, 102));
+  }
+ #heading-sec {
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  input,
+  textarea {
+    width: 50%;
+    max-width: 50%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    line-height: 1.6;
+    font-size: 1.05rem;
+  }
+  
+  button {
+    border: 2px solid white;
+    padding: 0.5rem;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  #your-detail{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+  }
+  #your-detail div{
+    margin: .5rem;
+  }
+   
+  #About,#edu,#certificate,#Contact_Us{
+    padding-top: 70px;
+  }
+img,img{
+    height: 300px;
+    width: 700px;
+    border-radius: .8rem;
+}
+
+.about-details{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
